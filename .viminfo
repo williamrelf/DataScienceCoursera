@@ -24,12 +24,26 @@
 	# Please enter the commit message for your changes. Lines starting
 
 # File marks:
-'0  1  13  ~/.git/COMMIT_EDITMSG
+'0  1  0  ~/DataScienceCoursera/.git/COMMIT_EDITMSG
+'1  1  0  ~/.git/MERGE_MSG
+'2  1  13  ~/.git/COMMIT_EDITMSG
 
 # Jumplist (newest first):
+-'  1  0  ~/DataScienceCoursera/.git/COMMIT_EDITMSG
+-'  1  0  ~/.git/MERGE_MSG
+-'  1  13  ~/.git/COMMIT_EDITMSG
+-'  1  13  ~/.git/COMMIT_EDITMSG
+-'  1  0  ~/.git/MERGE_MSG
+-'  1  13  ~/.git/COMMIT_EDITMSG
 -'  1  13  ~/.git/COMMIT_EDITMSG
 
 # History of marks within files (newest to oldest):
+
+> ~/DataScienceCoursera/.git/COMMIT_EDITMSG
+	"	1	0
+
+> ~/.git/MERGE_MSG
+	"	1	0
 
 > ~/.git/COMMIT_EDITMSG
 	"	1	13
