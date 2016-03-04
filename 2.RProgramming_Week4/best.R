@@ -10,13 +10,11 @@ best <- function(state = character(), outcome = character()) {
     
     stateData <- subset(outcomeData, outcomeData$State == state)
     
-    View(stateData, "State Data")
-    
     if (nrow(stateData) == 0) {
-        return("An invalid state was provided")
+        stop("An invalid state was provided")
     }
     else if (!outcome %in% c("heart attack", "heart failure", "pneumonia")) {
-        return("An invalid outcome was provided")
+        stop("An invalid outcome was provided")
     }
              
     if (outcome == "heart attack") {
