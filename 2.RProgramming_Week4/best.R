@@ -8,28 +8,36 @@ best <- function(state = character(), outcome = character()) {
     
     outcomeData <- read.csv(file = "outcome-of-care-measures.csv")
     
-    stateData <- subset(outcomeData, outcomeData$State == state)
+    stateData <- subset(outcomeData, State == state)
     
     if (nrow(stateData) == 0) {
-        stop("An invalid state was provided")
+        stop("invalid state")
     }
     else if (!outcome %in% c("heart attack", "heart failure", "pneumonia")) {
-        stop("An invalid outcome was provided")
+        stop("invalid outcome")
     }
-             
+    
+    outcomeColumnNumber = numeric()
+            
     if (outcome == "heart attack") {
-        
-        sortData <- stateData[order(stateData$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack, stateData$Hospital.Name), c("Hospital.Name")]
+        outcomeColumnNumber <- 11
     }
     else if (outcome == "heart failure") {
-        
-        sortData <- stateData[order(stateData$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Failure, stateData$Hospital.Name), c("Hospital.Name")]
+        outcomeColumnNumber <- 17
     }
     else if (outcome == "pneumonia") {
-        
-        sortData <- stateData[order(stateData$Hospital.30.Day.Death..Mortality..Rates.from.Pneumonia, stateData$Hospital.Name), c("Hospital.Name")]
+        outcomeColumnNumber <- 23
     }
     
-    as.character(sortData[1])
+    stateData[,outcomeColumnNumber] <- as.numeric(stateData[,outcomeColumnNumber])
     
+    stateData <- subset(stateData, !is.na(stateData[,outcomeColumnNumber]) && !is.nan(stateData[,outcomeColumnNumber]))
+    
+    sortData <- stateData[order(stateData[,outcomeColumnNumber], stateData$Hospital.Name), names(stateData)]
+    
+    ranker <- c(1:nrow(sortData))
+    
+    final <- cbind(sortData, data.frame(ranker))
+    
+    as.character(final[ranker == 1, 2])
 }
