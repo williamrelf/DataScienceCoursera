@@ -186,3 +186,122 @@ git commit -m"R Programming Assignment 2"
 git push
 git push
 exit
+ls
+add .
+git add .
+cd DataScienceCoursera/
+ls
+git add .
+cd 3.GettingAndCleaningData_Week4/
+ls
+exit
+ls
+cd DataScienceCoursera/
+ls
+git add .
+ls
+cd 3.GettingAndCleaningData_Week4/
+ls
+git add .
+cd .
+cd.
+cd ..
+ls
+git pull
+git commit -m"Getting and cleaning data, week 3"
+git push
+exit
+dir
+cd DataScienceCoursera/
+dir
+git add .
+dir
+cd 4.ExploratoryDataAnalysis_Week1/
+dir
+git add .
+git commit -m"All R files and output plots for Exploratory Data Analysis Week 1 Assignment"
+git push
+git add .
+git commit -m"All R files and output plots for Exploratory Data Analysis Week 1 Assignment"
+git push
+git add .
+git commit -m"All R files and output plots for Exploratory Data Analysis Week 1 Assignment"
+git push
+cd ..
+dir
+git add .
+git 
+cd 4.ExploratoryDataAnalysis_Week1/
+git rm .
+dir
+git diff
+git add .
+git commit -m"All R files and output plots for Exploratory Data Analysis Week 1 Assignment"
+git pull
+git rm "4.ExploratoryDataAnalysis_Week1/exdata-data-household_power_consumption/household_power_consumption.txt"
+git rm "household_power_consumption.txt"
+git rm "/exdata-data-household_power_consumption/household_power_consumption.txt"
+git rm "./exdata-data-household_power_consumption/household_power_consumption.txt"
+git rm "exdata-data-household_power_consumption/household_power_consumption.txt"
+git commit -m"All R files and output plots for Exploratory Data Analysis Week 1 Assignment"
+git reset
+git add .
+git commit -m"All R files and output plots for Exploratory Data Analysis Week 1 Assignment"
+git push
+git reset --soft HEAD^
+git commit -m"All R files and output plots for Exploratory Data Analysis Week 1 Assignment" -c ORIG_HEAD
+git commit -c ORIG_HEAD
+dir
+cd DataScienceCoursera/
+dir
+git add .
+cd 4.ExploratoryDataAnalysis_Week1/
+dir
+git add .
+git pul;l
+git pull
+git commit -m"Tying the commit again"git sdfsadfilknsd
+git push
+git reset
+git commit -m"Tying the commit again"
+git rm --cached
+git rm --cached -r
+git rm --cached 4.ExploratoryDataAnalysis_Week1/exdata-data-household_power_consumption/household_power_consumption.txt
+git rm --cached /exdata-data-household_power_consumption/household_power_consumption.txt
+git rm --cached ./exdata-data-household_power_consumption/household_power_consumption.txt
+dir
+git reset
+git add .
+git add
+git add ?
+git add . ?
+git add . '?
+
+go
+
+
+/
+.
+
+git ls-files --deleted
+cd DataScienceCoursera/
+dir
+cd 4
+cd 4.ExploratoryDataAnalysis_Week1/
+dir
+git ls-files --deleted -z
+git ls-files --deleted -z | xargs -0 git rm
+git add -u
+git commit -m"Adding file for data exploratory analysis week 1 assignment"
+git ls-tree --full-tree -r HEAD
+git push
+git ls-files
+git ls-tree
+git ls-tree -r
+git ls-tree -r --full-tree
+git ls-tree --full-tree -r
+git ls-tree HEAD
+git commit
+git pull
+git
+git rebase
