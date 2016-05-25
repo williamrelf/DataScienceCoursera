@@ -305,3 +305,92 @@ git commit
 git pull
 git
 git rebase
+dir
+cd DataScienceCoursera/
+dir
+git rebase
+cd 4.ExploratoryDataAnalysis_Week1/
+dir
+git rebase
+dir
+git add .
+cd ..
+git add .
+cd 4.ExploratoryDataAnalysis_Week1/
+git commit -m"Exploratory data analysis week 1 assignment"
+git push
+git 
+git reset HEAD
+git --ls-files
+git ls-files
+git ls-files --full-tree
+git ls-files --full-tree -c
+git ls-files -c
+git ls-files -d
+git ls-files -s
+git ls-files -o
+git fetch origin
+git reset --hard origin
+git add .
+ls
+cd ..
+dir
+cd 4.ExploratoryDataAnalysis_Week1/
+dir
+git add .
+cd..
+cd ..
+git add .
+dir
+cd 4.ExploratoryDataAnalysis_Week1/
+git commit -m"Exploratory data analysis week 1 assignement"
+git push
+git reset
+dir
+git commit -m"Exploratory data analysis week 1 assignement"
+git commit -m"Exploratory data analysis week 1 assignement"
+git push
+git rm --cached exdata-data-household_power_consumption
+git rm --cached 
+git rm --cached 4.ExploratoryDataAnalysis_Week1
+git ls -c
+git
+git ls-files
+git ls-directory
+git --help
+git log
+git reset --soft HEAD~
+git add .
+git add ...
+git commit -c ORIG_HEAD
+git log
+git push
+git log
+git commit -m"Exploratory data analysis week 1 assignement"
+dir
+cd..
+cd ..
+git add .
+git pull
+git pull origin
+git pull origin DataScienceCoursera
+git pull origin https://github.com/williamrelf/DataScienceCoursera
+git pull origin "https://github.com/williamrelf/DataScienceCoursera"
+git pull origin
+git pull origin master
+origin
+git pull origin
+cd ..
+git pull
+git pull origin
+git pull origin DataScienceCoursera
+git pull origin master
+git pull origin master
+dir
+git add .
+cd 4.ExploratoryDataAnalysis_Week1/
+git add .
+cd ..
+git commit -m"Exploratory data analysis week 1 assignment"
+git push
+exit
